@@ -1,40 +1,67 @@
 /* -------------------- TAGs -------------------- */
-*{
+* {
     margin: 0;
     padding: 0;
 }
-header{
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
     background-color: rgb(0, 120, 157);
     height: 50px;
     padding: 10px;
 }
-footer{
+
+section{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
     background-color: rgb(0, 120, 157);
-    height: 50px;
+    height: 110px;
     padding: 10px;
     text-align: center;
     color: white;
+
 }
+
 
 
 
 
 /* -------------------- IDs -------------------- */
 
-.img-perfil{
-    
-}
 
 
 
 
 /* -------------------- CLASSs -------------------- */
 
-.container-img{
-    width: 160;
-    text-align: center;
+.container-img {
+    background-color: #e2e2e2;
+    background-image: url("../images/DevOps_2.png");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: right;
+    overflow: hidden;
+    text-align: left;
+    height: 300px;
+    
+    
 }
-.tittle{
+
+.tittle {
     text-align: center;
     color: white;
+}
+
+.picture{
+    width: 200px;
+    padding: 50px;
+    
 }
