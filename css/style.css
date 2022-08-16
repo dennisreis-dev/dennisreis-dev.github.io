@@ -1,4 +1,8 @@
-/* -------------------- TAGs -------------------- */
+/* Author: Dennis Reis | MIT License | https://github.com/dennisreis-dev/dennisreis-dev.github.io */ 
+
+/* Tags
+     ========================================================================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,12 +19,6 @@ header {
     padding: 10px;
 }
 
-section {
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
 footer {
     background-color: rgb(0, 120, 157);
     height: 110px;
@@ -30,13 +28,17 @@ footer {
 
 }
 
-@media only screen and (max-device-width: 900px) {
-    /* .menu { width:100%; } */
+/* Sections
+     ========================================================================== */
+
+section {
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
-
-
-/* -------------------- IDs -------------------- */
+/* Ids
+     ========================================================================== */
 
 #carreira {
     color: coral;
@@ -54,7 +56,8 @@ footer {
 
 }
 
-/* -------------------- CLASSs -------------------- */
+ /* Class
+     ========================================================================== */
 
 .container-img {
 
