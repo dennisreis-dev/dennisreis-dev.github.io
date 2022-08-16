@@ -30,7 +30,9 @@ footer {
 
 }
 
-
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:100%; } */
+}
 
 
 
@@ -48,8 +50,8 @@ footer {
 #picture_3 {
     clear: both;
     padding: 50px 50px 50px 220px;
-    width: 150px;
-    
+    width: 200px;
+
 }
 
 /* -------------------- CLASSs -------------------- */
@@ -61,8 +63,8 @@ footer {
     background-repeat: no-repeat;
     background-position: right; 
     background-size: 400px;*/
-    height: 250px;
-    
+    height: 300px;
+
 }
 
 .tittle {
@@ -72,7 +74,7 @@ footer {
 }
 
 .picture {
-    width: 150px;
+    width: 200px;
     padding: 50px;
 
 }
