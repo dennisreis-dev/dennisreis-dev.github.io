@@ -48,7 +48,7 @@ footer {
 #picture_3 {
     clear: both;
     padding: 50px 50px 50px 220px;
-    width: 200px;
+    width: 150px;
     
 }
 
@@ -61,17 +61,18 @@ footer {
     background-repeat: no-repeat;
     background-position: right; 
     background-size: 400px;*/
-    height: 300px;
-
+    height: 250px;
+    
 }
 
 .tittle {
     text-align: center;
     color: white;
+    font-size: 24px;
 }
 
 .picture {
-    width: 200px;
+    width: 150px;
     padding: 50px;
 
 }
