@@ -1,234 +1,254 @@
-/* Author: Dennis Reis | MIT License | https://github.com/dennisreis-dev/Site_Responsivo */ 
- 
- /* Tags
+/* Author: Dennis Reis | MIT License | https://github.com/dennisreis-dev/Site_Responsivo */
+
+/* Tags
      ========================================================================== */
 
-     *{
-        padding: 0;
-        margin: 0;
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: Nunito, sans-serif;
+    color: #1c1c1c;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Asap, sans-serif;
+    color: #000000;
+}
+
+/* Header
+     ========================================================================== */
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+
+}
+
+header h1 {
+
+    color: #FFFFFF;
+    text-shadow: 3px 3px 1px #111111;
+}
+
+header p {
+
+    margin-bottom: 2em;
+    text-align: left;
+
+}
+
+header div {
+    width: 500px;
+    display: inline-block;
        
-     }
-     body{
-        font-family: Nunito, sans-serif;
-        color: #1c1c1c;
-     }
+}
 
-     h1, h2, h3{
-        font-family: Asap, sans-serif;
-        color: #000000;
-     }
+header #lado_esquerdo, #lado_direito{
+    border-style: groove;
+    border-radius: 10px;
+    
+}
 
-  /* Header
+header #lado_direito{
+    float: right;
+}
+
+
+header div ul {
+    list-style: none;
+    padding-bottom: 5px;
+
+}
+
+header div h3 {
+    padding-top: 7px;
+    color: #434242;
+}
+
+
+/* Nav (Navegação)
      ========================================================================== */
 
-     header{
+nav {
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-image: url("../images/background.png"); 
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        color: #FFFFFF;
-        text-align: center;
-        padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191970;
+}
 
-    }
+nav>a {
 
-    header h1{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Yellowtail, serif;
 
-        color: #FFFFFF;
-        text-shadow: 3px 3px 1px #111111;
-    }
+}
 
-    header p{
+nav ul {
 
-        margin-bottom: 2em;
-        text-align: left;
-        
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
 
-    header div{
-        width: 600px;
-        display: inline-block;
-        border-style: groove;
-        border-radius: 10px;
-    }
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
 
-    header div ul{
-        list-style: none;
-        padding-bottom: 5px;
-        
-    }
-
-   header div h3{
-        padding-top: 7px; 
-    }
-   
-       
-  /* Nav (Navegação)
-     ========================================================================== */
-
-     nav{
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #191970;
-     }
-
-     nav > a{
-
-        text-decoration: none;
-        color: #FFFFFF;
-        font-weight: 800;
-        font-size: 32px;
-        font-family: Yellowtail, serif;
-
-     }
-
-     nav ul{
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        list-style: none;
-        padding: 0;
-        width: 100%;
-     }
-
-     nav ul li{
-        text-align: center;
-        width: 100%;
-     }
-
-     nav ul li a{
-        display: inline-block;
-        padding: 10px 0;
-        width: 100%;
-        text-decoration: none;
-        color: #FFFFFF;
-     }
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
 /* Rodapé
      ========================================================================== */
 
-    footer{
+footer {
 
-        text-align: center;
-        padding: 10px;
-        background-color: #191970;
-        color: #FFFFFF;
-    }
+    text-align: center;
+    padding: 10px;
+    background-color: #191970;
+    color: #FFFFFF;
+}
 
-    footer a{
+footer a {
 
-        text-decoration: none;
-        color: #00FFFF;
-      
-    }
+    text-decoration: none;
+    color: #00FFFF;
+
+}
 
 
- /* Media Queries
+/* Media Queries
      ========================================================================== */
 
 @media screen and (min-width: 768px) {
 
-/*NAV*/
+    /*NAV*/
 
-nav{
-    flex-direction: row;
-    justify-content: space-around;
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+
+    /*Header*/
+
+    header {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+
+    }
+
+    header div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header div ul {
+        flex-direction: row;
+        width: 70%;
+    }
+
+    /*SOBRE*/
+
+    #sobre {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+
+    }
+
+    /*CERTIFICAÇÔES*/
+
+    #certificacoes {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+
+    }
+
+    #certificacoes h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #certificacoes img {
+        width: 33.3333333%;
+
+    }
+
+    #section_certificacoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /*FORMAÇÂO*/
+
+    #formacao {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        min-width: 280px;
+        max-width: 800px;
+        margin: 0 auto;
+
+    }
+
+    #formacao h2,
+    #formacao p {
+        width: 100%;
+
+    }
+
+    #section_formacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
 }
 
-nav ul{
-    flex-direction: row;
-    width: 70%;
-}
-
-/*Header*/
-
-header{
-    height: 600px;
-    height: 60vh;
-    justify-content: center;
-
-}
-
-header div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-header div ul{
-    flex-direction: row;
-    width: 70%;
-}
-    
-/*SOBRE*/
-
-#sobre{
-    height: 250px;
-    height: 30vh;
-    justify-content: center;
-    min-height: 250px;
-
-}
-
-/*CERTIFICAÇÔES*/
-
-#certificacoes{
-    flex-direction: row;
-    flex-wrap: wrap;
-   
-    
-}
-
-#certificacoes h2{
-    width: 100%;
-    text-align: center;
-}
-
-#certificacoes img{
-    width: 33.3333333%;
-
-}
-
-#section_certificacoes{
-    
-}
-
-/*FORMAÇÂO*/
-
-#formacao{
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    min-width: 280px;
-    max-width: 800px;
-    margin: 0 auto;
-        
-}
-
-#formacao h2, #formacao p{
-    width: 100%;
-    
-}
-
-#section_formacao{
-    
-}
-
-}
-
- /* Ids
+/* Ids
      ========================================================================== */
 
 /* ---------------------------------- SOBRE ----------------------------------- */
 
-#sobre{
+#sobre {
 
     display: flex;
     flex-direction: column;
@@ -239,18 +259,19 @@ header div ul{
     color: #FFFFFF;
 }
 
-#sobre h2{
+#sobre h2 {
 
     color: #FFFFFF;
 
 }
 
-#sobre h1{
+#sobre h1 {
     color: #FFFFFF;
     text-shadow: 3px 3px 1px #111111;
 
 }
-#sobre p{
+
+#sobre p {
 
     margin-bottom: 2.5em;
     max-width: 1000px;
@@ -259,17 +280,17 @@ header div ul{
 
 }
 
-#sobre .button{
+#sobre .button {
 
     background-color: #5A9891;
     color: #FFFFFF;
-    font-weight:bold;
-    
+    font-weight: bold;
+
 }
 
 /* ---------------------------------- CERTIFICAÇÔES ----------------------------------- */
 
-#certificacoes{
+#certificacoes {
 
     display: flex;
     flex-direction: column;
@@ -278,30 +299,31 @@ header div ul{
 
 }
 
-#certificacoes h2{
+#certificacoes h2 {
     margin-bottom: 20px;
-    
+    color: #FFFFFF;
+
 
 }
 
-#section_certificacoes{
+#section_certificacoes {
     display: inline-block;
     padding: 10px;
-    background-color: #9f82fc;
-    width: 670px;
+    background-image: linear-gradient(to right, #088288, #9f82fc);
+    width: 680px;
     height: 141,16px;
-   
+
 }
 
-#section_certificacoes ul li{
+#section_certificacoes ul li {
     list-style: none;
-    
+
 }
 
 
 /* ---------------------------------- FORMAÇÂO ----------------------------------- */
 
-#formacao{
+#formacao {
 
     display: flex;
     flex-direction: column;
@@ -310,49 +332,46 @@ header div ul{
     padding: 20px;
 }
 
-#formacao h2{
+#formacao h2 {
     margin-bottom: 20px;
-    color: #000000;
+    color: #FFFFFF;
     text-align: left;
 
 }
 
-#section_formacao{
-    float: right;    
-    background-color: #8ef9ff;
+#section_formacao {
+    float: right;
+    padding: 10px;
+    background-image: linear-gradient(to right, #9f82fc, #088288);
     width: 659px;
-    padding: 0 0 18px 0;
-       
 }
 
-#section_formacao ul li{
+#section_formacao ul li {
     list-style: none;
     text-align: left;
-    
+
 }
 
 /* Diversos
      ========================================================================== */
 
-#picture_logo{
+#picture_logo {
     width: 90px;
     padding: 50px;
-    
+
 }
 
 
- /* Class
+/* Class
      ========================================================================== */
 
-     .button{
+.button {
 
-        color: #FFFFFF;
-        text-decoration: none;
-        padding: 10px 30px;
-        background-color: #191970;
-        font-size: .9em;
-        border-radius: 3px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #191970;
+    font-size: .9em;
+    border-radius: 3px;
 
-     }
-
-   
+}
