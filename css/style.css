@@ -184,6 +184,11 @@ header{
 
 }
 
+#section_certificacoes{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 /*FORMAÇÂO*/
 
 #formacao{
@@ -198,6 +203,11 @@ header{
 #formacao h2, #formacao p{
     width: 100%;
     
+}
+
+#section_formacao{
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 }
