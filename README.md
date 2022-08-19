@@ -1,2 +1,5 @@
 # Dennis Reis - Github Pages
-Um Github Page para uma mini apresentação dos meus portifólios de trabalhos e estudos realizados.
+## Um Github Pages para uma mini apresentação dos: 
+- Meus portifólios de trabalhos
+- Estudos realizados
+- Cursos e reinamentos
