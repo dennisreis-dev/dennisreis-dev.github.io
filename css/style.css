@@ -155,6 +155,17 @@ header{
     justify-content: center;
 
 }
+
+header div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header div ul{
+    flex-direction: row;
+    width: 70%;
+}
     
 /*SOBRE*/
 
@@ -171,8 +182,7 @@ header{
 #certificacoes{
     flex-direction: row;
     flex-wrap: wrap;
-    min-width: 320px;
-    max-width: 800px;
+   
     
 }
 
@@ -187,8 +197,7 @@ header{
 }
 
 #section_certificacoes{
-    flex-direction: row;
-    width: 70%;
+    
 }
 
 /*FORMAÇÂO*/
@@ -197,7 +206,7 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    min-width: 320px;
+    min-width: 280px;
     max-width: 800px;
     margin: 0 auto;
         
@@ -209,8 +218,7 @@ header{
 }
 
 #section_formacao{
-    flex-direction: row;
-    width: 70%;
+    
 }
 
 }
