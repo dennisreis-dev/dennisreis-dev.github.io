@@ -259,7 +259,7 @@ header{
 
 #certificacoes h2{
     margin-bottom: 20px;
-    text-align: left;
+    
 
 }
 
@@ -267,14 +267,14 @@ header{
     display: inline-block;
     padding: 10px;
     background-color: #9f82fc;
-    width: 680px;
+    width: 670px;
     height: 141,16px;
    
 }
 
 #section_certificacoes ul li{
     list-style: none;
-    text-align: left;
+    
 }
 
 
@@ -299,8 +299,8 @@ header{
 #section_formacao{
     float: right;    
     background-color: #8ef9ff;
-    width: 650px;
-    height: 120px;
+    width: 659px;
+    padding: 0 0 18px 0;
        
 }
 
