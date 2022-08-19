@@ -171,6 +171,8 @@ header{
 #certificacoes{
     flex-direction: row;
     flex-wrap: wrap;
+    min-width: 320px;
+    max-width: 800px;
     
 }
 
@@ -195,7 +197,8 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 500px;
+    min-width: 320px;
+    max-width: 800px;
     margin: 0 auto;
         
 }
