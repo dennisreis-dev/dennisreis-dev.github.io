@@ -54,24 +54,27 @@ header p {
 header div {
     width: 500px;
     display: inline-block;
-       
+
 }
 
-header #lado_esquerdo, #lado_direito{
+header #lado_esquerdo, #lado_direito {
     border-style: groove;
     border-radius: 10px;
-    
+
 }
 
-header #lado_direito{
+header #lado_direito {
     float: right;
 }
 
 
 header div ul {
     list-style: none;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+}
 
+header div ul li{
+    padding: 2px;
 }
 
 header div h3 {
@@ -88,10 +91,11 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #191970;
+    background-image: linear-gradient(to right, #191970, #011d18 );
+    
 }
 
-nav>a {
+nav > a {
 
     text-decoration: none;
     color: #FFFFFF;
@@ -112,14 +116,14 @@ nav ul {
 }
 
 nav ul li {
-    text-align: center;
-    width: 100%;
+    text-align: right;
+    width: 50%;
 }
 
 nav ul li a {
     display: inline-block;
-    padding: 10px 0;
-    width: 100%;
+    padding: 0 10px 0 10px;
+    /*width: 100%; - Se deixar em 100% o link se espande além do texto do menu ou seja o hyperlink, vai além do texto.*/
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -131,7 +135,7 @@ footer {
 
     text-align: center;
     padding: 10px;
-    background-color: #191970;
+    background-image: linear-gradient(to right, #191970, #011d18 );
     color: #FFFFFF;
 }
 
@@ -146,7 +150,7 @@ footer a {
 /* Media Queries
      ========================================================================== */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
 
     /*NAV*/
 
@@ -173,6 +177,7 @@ footer a {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     header div ul {
@@ -228,8 +233,7 @@ footer a {
 
     }
 
-    #formacao h2,
-    #formacao p {
+    #formacao h2, #formacao p {
         width: 100%;
 
     }
@@ -243,6 +247,8 @@ footer a {
 
 }
 
+
+
 /* Ids
      ========================================================================== */
 
@@ -255,7 +261,7 @@ footer a {
     align-items: center;
     text-align: center;
     padding: 10px 10px 20px 20px;
-    background-color: #191970;
+    background-image: linear-gradient(to right, #191970, #011d18 );
     color: #FFFFFF;
 }
 
@@ -306,17 +312,17 @@ footer a {
 
 }
 
-#section_certificacoes {
+#section_certificacoes{
     display: inline-block;
     padding: 10px;
     background-image: linear-gradient(to right, #088288, #9f82fc);
-    width: 680px;
-    height: 141,16px;
-
+    width: 50%;
 }
 
 #section_certificacoes ul li {
     list-style: none;
+    text-align: left;
+    font-weight: bold;
 
 }
 
@@ -341,15 +347,16 @@ footer a {
 
 #section_formacao {
     float: right;
-    padding: 10px;
+    padding:0 0 38px 0;
     background-image: linear-gradient(to right, #9f82fc, #088288);
-    width: 659px;
+    width: 48.5%;
 }
 
 #section_formacao ul li {
     list-style: none;
     text-align: left;
-
+    font-weight: bold;
+   
 }
 
 /* Diversos
@@ -370,7 +377,7 @@ footer a {
     color: #FFFFFF;
     text-decoration: none;
     padding: 10px 30px;
-    background-color: #191970;
+    background-image: linear-gradient(to right, #088288, #9f82fc);
     font-size: .9em;
     border-radius: 3px;
 
