@@ -6,7 +6,7 @@
 * {
     padding: 0;
     margin: 0;
-
+    
 }
 
 body {
@@ -91,6 +91,7 @@ nav {
     flex-direction: column;
     align-items: center;
     background-image: linear-gradient(to right, #191970, #011d18 );
+    height: 100px;
     
 }
 
@@ -101,9 +102,13 @@ nav > a {
     font-weight: 800;
     font-size: 32px;
     font-family: Yellowtail, serif;
-
+    
 }
-
+ nav a:hover {
+    /*background: rgb(4, 48, 114);*/
+    font-size: x-large;
+    font-weight: bold;
+ }
 nav ul {
 
     display: flex;
@@ -127,13 +132,13 @@ nav ul li a {
     color: #FFFFFF;
 }
 
-/* Rodapé
+/* Rodapé - Footer
      ========================================================================== */
 
 footer {
 
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-image: linear-gradient(to right, #191970, #011d18 );
     color: #FFFFFF;
 }
@@ -145,11 +150,14 @@ footer a {
 
 }
 
+#footer_voltar{
+    width: 35px;
+}
 
 /* Media Queries
      ========================================================================== */
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 720px) {
 
     /*NAV*/
 
@@ -163,6 +171,14 @@ footer a {
         width: 70%;
     }
 
+    #btn-mobile{
+        display: block;
+    }
+
+    /* #menu{
+        display: none;
+    } */
+
     /*Header*/
 
     header {
@@ -173,10 +189,12 @@ footer a {
     }
 
     header div {
+        display: inline-block;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        width: 50%;
+        height: 40%;
     }
 
     header div ul {
@@ -208,26 +226,24 @@ footer a {
         text-align: center;
     }
 
-    /* #certificacoes img {
-        width: 33.3333333%;
-
-    } */
-
+   
     #section_certificacoes {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
+        width: 100%;
     }
 
     /*FORMAÇÂO*/
 
     #formacao {
+        
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        min-width: 280px;
-        max-width: 800px;
+        /* min-width: 280px;
+        max-width: 800px; */
         margin: 0 auto;
 
     }
@@ -242,15 +258,24 @@ footer a {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        width: 100%;
     }
 
 }
 
+/* @media screen and (max-width: 720px) {
+    #menu{
+        display: block;
+    }
+} */
 
 /* Ids
      ========================================================================== */
 
-/* ---------------------------------- SOBRE ----------------------------------- */
+/* *
+   *              SOBRE 
+   * -----------------------------------
+*/
 
 #sobre {
 
@@ -292,7 +317,11 @@ footer a {
 
 }
 
-/* ---------------------------------- CERTIFICAÇÔES ----------------------------------- */
+/* *
+   *              CERTIFICAÇÔES 
+   * -----------------------------------
+*/
+
 
 #certificacoes {
 
@@ -314,7 +343,7 @@ footer a {
     display: inline-block;
     padding: 10px;
     background-image: linear-gradient(to right, #088288, #9f82fc);
-    width: 50%;
+    /* width: 50%; */
 }
 
 #section_certificacoes ul li {
@@ -324,8 +353,11 @@ footer a {
     
 }
 
+/* *
+   *              FORMAÇÂO 
+   * -----------------------------------
+*/
 
-/* ---------------------------------- FORMAÇÂO ----------------------------------- */
 
 #formacao {
 
@@ -339,7 +371,7 @@ footer a {
 #formacao h2 {
     margin-bottom: 20px;
     color: #FFFFFF;
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -347,12 +379,12 @@ footer a {
     float: right;
     padding:0 0 38px 0;
     background-image: linear-gradient(to right, #9f82fc, #088288);
-    width: 48.5%;
+    /* width: 48.5%; */
 }
 
 #section_formacao ul li {
     list-style: none;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
    
 }
@@ -360,11 +392,18 @@ footer a {
 /* Diversos
      ========================================================================== */
 
-#picture_logo {
-    width: 90px;
-    padding: 50px;
 
+#picture_logo-2{
+    width: 250px;
+    /* padding: 0 50px 0 0; */
+    
 }
+
+
+#btn-mobile{
+    display: none;
+}
+
 
 
 /* Class
