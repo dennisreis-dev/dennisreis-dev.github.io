@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/normalize.css"> -->
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <script src="./js/script.js"></script>
     <title>Dennis Reis - DevOps</title>
@@ -18,15 +18,15 @@
 
 <body>
 
-    <nav id="topo-1">
+    <nav id="nav_menu">
         <button id="btn-mobile">Menu</button>
-        <!-- <a href="https://linkedin.com/in/dennisreis" target="_blank">
-            <img id="picture_logo" src="./images/perfil.png" alt="Dennis Reis">
-        </a> -->
-        <!-- <a href="https://linkedin.com/in/dennisreis" target="_blank">Dennis Reis</a> -->
-        <a href="https://linkedin.com/in/dennisreis" target="_blank">
-            <img id="picture_logo-2" src="./images/Logo-DPorto/Logo_DPR_rbg.png" alt="DPorto Tecnologia">
-        </a>
+
+        <div class="nav_logo">
+            <img id="picture_logo" src="./images/perfil_90px.png" alt="Dennis">
+        </div>
+       
+            <h3 id="nome_logo">Dennis Reis</h3>
+        
         <ul id="menu">
             <li>
                 <a href="#sobre">Sobre</a>
@@ -40,15 +40,25 @@
                 <a href="#formacao">Formação</a>
             </li>
         </ul>
+        <div id="nav_redes_sociais">
+            <a href="https://www.instagram.com/dennisportoreis/" target="_blank">
+                <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"
+                    target="_blank" alt="Instagram">
+            </a>
+
+            <a href="https://www.linkedin.com/in/dennisreis" target="_blank">
+                <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+                    target="_blank" alt="Linkedin">
+            </a>
+        </div>
     </nav>
 
     <header id="topo">
 
         <h1>Projetos e Cursos</h1>
-
         <div id="lado_esquerdo">
 
-            <h3>Projetos</h3> <br>
+            <h3>Projetos</h3>
 
             <ul>
 
@@ -70,46 +80,47 @@
                 </a>
             </ul>
         </div>
-        <br>
+
         <div id="lado_direito">
 
-            <h3>Cursos - Treinamentos - BootCamps</h3> <br>
+            <h3>Cursos - Treinamentos - BootCamps</h3>
 
             <ul>
                 <a href="https://github.com/dennisreis-dev/Integracao-do-Python-com-Word-Como-Criar-Contratos-Automaticamente"
                     target="_blank">
 
                     <li>Integração do Python com Word - Como Criar Contratos Automaticamente</li>
+
                 </a>
                 <a href="https://github.com/dennisreis-dev/Introducao_a_Linguagem_CSS" target="_blank">
 
                     <li>Introdução a Linguagem CSS</li>
+
                 </a>
                 <a href="https://github.com/dennisreis-dev/Copiar-e-Mover-Arquivos-com-Python" target="_blank">
 
                     <li>Copiar e Mover Arquivos com Python</li>
+
                 </a>
                 <a href="https://github.com/dennisreis-dev/Minicurso-de-Automacao" target="_blank">
 
                     <li>Minicurso de Automação</li>
+
                 </a>
                 <a href="https://github.com/dennisreis-dev/BootCamp-IGTI-Python" target="_blank">
 
                     <li>BootCamp-IGTI-Python</li>
+
                 </a>
             </ul>
         </div>
-        <br>
-
     </header>
     <section id="sobre">
         <h1>Sobre</h1>
-        <br>
         <p>
             Mais de 20 anos de experiência em TI, vividos em empresas brasileiras e multinacionais de grande e médio
-            porte. Atuando atualmente na area de ALM -<em>Application Lifecycle Management</em> (Gerenciamento do Ciclo
-            de Vida de Aplicações), DevOps. Vivência em
-            redes, projetos, métodos ágeis.
+            porte. Atuando atualmente na area de <strong>ALM</strong> - <em>Application Lifecycle Management</em>
+            (Gerenciamento do Ciclo de Vida de Aplicações), DevOps. Vivência em redes, projetos, métodos ágeis.
         </p>
 
         <a class="button" href="https://linkedin.com/in/dennisreis" target="_blank">
@@ -140,21 +151,23 @@
     </div>
     <footer>
         <div id="footer_centro">
-            <a href="#topo-1">
+            <a href="#nav_menu">
                 <img id="footer_voltar" src="./images/arrows-button-up-circle-.PNG" alt="Voltar">
             </a>
         </div>
         <div id="footer_esquerda">
-            <p>Todos os direitos reservados &copy;</p>
+            <p>Copyright &copy;2022 Dennis Reis, Inc. All rights reserved. </p>
         </div>
         <div id="footer_direita">
             <a href="https://www.instagram.com/dennisportoreis/" target="_blank">
-                <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"
+                <img class="flooter_img"
+                    src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"
                     target="_blank" alt="Instagram">
             </a>
 
             <a href="https://www.linkedin.com/in/dennisreis" target="_blank">
-                <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+                <img class="flooter_img"
+                    src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
                     target="_blank" alt="Linkedin">
             </a>
         </div>
