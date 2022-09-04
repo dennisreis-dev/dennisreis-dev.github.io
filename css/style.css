@@ -85,8 +85,8 @@
     
         text-decoration: none;
         color: #FFFFFF;
-        font-weight: 800;
-        font-size: 32px;
+        font-weight: 400;
+        font-size: 29px;
         font-family: Yellowtail, serif;
         
     }
@@ -185,7 +185,7 @@
    
         header {
             height: 600px;
-            height: 60vh;
+            height: 40vh;
             justify-content: center;
     
         }
