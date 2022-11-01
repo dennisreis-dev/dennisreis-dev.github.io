@@ -3,6 +3,7 @@
 # Dennis Reis - DevOps
 ## Um Github Pages para uma mini apresentação dos: 
 - Meus portifólios de trabalhos
+- Projetos Individuais
 - Estudos realizados
 - Cursos e Treinamentos
 
