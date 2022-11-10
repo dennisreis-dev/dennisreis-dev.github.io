@@ -1,6 +1,6 @@
 body{
     color: white;
-    background-color: black;
+    background-color: rgb(242, 236, 236);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,7 +17,7 @@ a{
     text-decoration: none;
 }
 
-img{
+header img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
