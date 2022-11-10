@@ -1,8 +1,14 @@
+/* Author: Dennis Reis | MIT License | https://github.com/dennisreis-dev */
+
+/* Tags
+     ========================================================================== */
+
 body{
     color: white;
-    background-color: rgb(242, 236, 236);
+    background-color: rgb(19, 18, 18);
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 ul{
     display: flex;
@@ -12,10 +18,12 @@ ul{
     padding: 16px;
 }
 
+
 a{
     color: white;
     text-decoration: none;
 }
+
 
 header img{
     width: 150px;
@@ -28,6 +36,17 @@ header img{
     text-align: center;
 }
 
+
 h1{
     color: rgb(3, 101, 110) ;
+}
+
+.dir_autorais{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    font-size: 10px;
+    
 }

@@ -223,8 +223,7 @@
         #certificacoes {
             flex-direction: row;
             flex-wrap: wrap;
-    
-    
+       
         }
     
         #certificacoes h2 {
@@ -341,8 +340,6 @@
     #certificacoes h2 {
         margin-bottom: 20px;
         color: #FFFFFF;
-    
-    
     }
     
     #section_certificacoes{
