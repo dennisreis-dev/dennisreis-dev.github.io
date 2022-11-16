@@ -3,14 +3,13 @@
 /* Tags
      ========================================================================== */
 
-body{
+body {
     color: white;
     background-color: rgb(19, 18, 18);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-ul{
+ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -18,35 +17,66 @@ ul{
     padding: 16px;
 }
 
-
-a{
+a {
     color: white;
     text-decoration: none;
 }
 
-
-header img{
+header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 5px solid rgb(3, 101, 110)
 }
 
-.img_perfil{
+h1 {
+    color: rgb(3, 101, 110);
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
     text-align: center;
 }
 
-
-h1{
-    color: rgb(3, 101, 110) ;
+footer p {
+    margin-top: 2px;
 }
 
-.dir_autorais{
-    display: flex;
-    justify-content: right;
-    list-style-type: none;
-    align-items: center;
-    padding: 16px;
-    font-size: 10px;
-    
+nav a:hover {
+   color: green;
+}
+
+/* Class
+     ========================================================================== */
+
+.container {
+   padding: 0px 50px;
+}
+
+.dir_autorais p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.dir_autorais {
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+  align-items: center;
+  padding: 16px;
+  font-size: 10px;
+}
+
+.img_perfil {
+    text-align: center;
 }
