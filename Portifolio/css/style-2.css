@@ -9,14 +9,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    padding: 16px;
-}
-
 a {
     color: white;
     text-decoration: none;
@@ -79,4 +71,12 @@ nav a:hover {
 
 .img_perfil {
     text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
 }
