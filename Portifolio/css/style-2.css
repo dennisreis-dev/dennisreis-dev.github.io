@@ -73,7 +73,10 @@ nav a:hover {
     text-align: center;
 }
 
-.menu {
+/* ID
+     ========================================================================== */
+
+#menu {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
