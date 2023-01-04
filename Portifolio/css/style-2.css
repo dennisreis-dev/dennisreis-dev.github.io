@@ -83,3 +83,14 @@ nav a:hover {
     align-items: center;
     padding: 16px;
 }
+
+#projetos a {
+   
+    text-decoration-line: underline;
+    
+}
+
+#projetos a:hover {
+    color: rgb(3, 226, 246);
+ }
+
