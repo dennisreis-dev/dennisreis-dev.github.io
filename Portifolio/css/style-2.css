@@ -3,6 +3,12 @@
 /* Tags
      ========================================================================== */
 
+/* * {
+   padding: 0;
+   margin: 0;
+        
+ } */
+
 body {
     color: white;
     background-color: rgb(19, 18, 18);
@@ -11,7 +17,7 @@ body {
 
 hr {
 	border: 0;
-	border-top: 1px solid rgb(255, 255, 255);
+	border-top: 1px solid rgb(206, 203, 203);
 }
 
 a {
@@ -23,7 +29,12 @@ nav img {
     width: 75px;
     height: 75px;
     border-radius: 50%;
-    border: 4px solid rgb(3, 101, 110);
+    border: 4px solid rgb(236, 230, 230);
+}
+
+nav{
+    background-image: linear-gradient(to right,#06dca0, #0e4189);
+    
 }
 
 h1 {
@@ -78,6 +89,10 @@ nav a:hover {
     text-align: left;
 }
 
+.redes_sociais{
+
+    background-image: linear-gradient(to right,#06dca0, #0e4189);
+}
 /* ID
      ========================================================================== */
 
