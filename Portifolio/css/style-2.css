@@ -41,6 +41,13 @@ h1 {
     color: rgb(3, 101, 110);
 }
 
+main{
+    background-image: url(../img/abstract-background.jpg), url(../img/tecnology.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    
+}
 footer img {
     width: 25px;
     height: 25px;
@@ -81,8 +88,9 @@ nav a:hover {
   justify-content: right;
   list-style-type: none;
   align-items: center;
-  padding: 16px;
-  font-size: 10px;
+  padding: 10px;
+  font-size: 9px;
+  color: red;
 }
 
 .img_perfil {
