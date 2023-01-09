@@ -1,0 +1,428 @@
+/* Author: Dennis Reis | MIT License | https://github.com/dennisreis-dev/Site_Responsivo */
+
+/* Tags
+     ========================================================================== */
+
+     * {
+        padding: 0;
+        margin: 0;
+        
+    }
+    
+    body {
+        font-family: Nunito, sans-serif;
+        color: #1c1c1c;
+    }
+    
+    h1, h2, h3 {
+        font-family: Asap, sans-serif;
+        color: #000000;
+    }
+    
+
+   /* Header
+         ========================================================================== */
+    
+    header {
+        
+        display: flex; 
+        /* flex-direction: column; */
+        background-image: url("../images/background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 20px;
+        column-gap: 30px;
+    }
+    
+    header h1 {
+        color: #FFFFFF;
+        text-shadow: 3px 3px 1px #111111;
+               
+    }
+    
+    header #lado_esquerdo, #lado_direito {
+
+        border-style: groove;
+        border-radius: 10px;
+        width:100%;
+        height: 210px;                     
+        padding: 10px 0 0 0;
+            
+    }
+    
+    header div {
+        padding: 50px;
+    }
+
+    header div ul {
+        list-style: none;
+        padding-bottom: 10px;
+    }
+    
+    header div ul li{
+        padding: 2px;
+    }
+    
+    header div h3 {
+        padding: 10px;
+        color: #434242;
+    }
+    
+   
+    /* Nav (Navegação)
+         ========================================================================== */
+    
+    nav {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: linear-gradient(to right, #191970, #011d18 );
+        height: 100px;
+        
+    }
+    
+    nav > a {
+    
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 29px;
+        font-family: Yellowtail, serif;
+        
+    }
+    
+     nav a:hover {
+        font-size: x-large;
+        font-weight: bold;
+     }
+
+    nav ul {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        width: 100%;
+    }
+    
+    nav ul li {
+        text-align: right;
+        width: 30%;
+    }
+    
+    nav ul li a {
+        display: inline-block;
+        padding: 0 10px 0 10px;
+        /*width: 100%; - Se deixar em 100% o link se espande além do texto do menu ou seja o hyperlink, vai além do texto.*/
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    #nav_redes_sociais{
+        display: flex;
+        column-gap: 5px;
+        
+    }
+
+   
+    /* Rodapé - Footer
+         ========================================================================== */
+    
+    footer {
+    
+        text-align: center;
+        padding: 20px;
+        background-image: linear-gradient(to right, #191970, #011d18 );
+        color: #FFFFFF;
+    }
+    
+    footer a {
+    
+        text-decoration: none;
+        color: #00FFFF;
+    
+    }
+    
+    #footer_voltar{
+        width: 35px;
+    }
+    
+    /* Media Queries
+         ========================================================================== */
+    
+    @media screen and (min-width: 700px) {
+    
+        /*NAV*/
+    
+        nav {
+            flex-direction: row;
+            justify-content: space-around;
+            
+        }
+    
+        nav ul {
+            flex-direction: row;
+            width: 70%;
+        }
+
+        #nav_redes_sociais{
+            width: 30%;
+        }
+    
+       
+        #btn-mobile{
+            display: block;
+        }
+
+    
+        /* #menu{
+            display: none;
+        } */
+    
+       
+        /*Header*/
+   
+        header {
+            height: 600px;
+            height: 40vh;
+            justify-content: center;
+    
+        }
+    
+        header div {
+            display: inline-block;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            height: 40%;
+        }
+    
+        header div ul {
+            flex-direction: row;
+            width: 70%;
+        }
+    
+        /*SOBRE*/
+    
+        #sobre {
+            height: 250px;
+            height: 30vh;
+            justify-content: center;
+            min-height: 250px;
+    
+        }
+    
+        /*CERTIFICAÇÔES*/
+    
+        #certificacoes {
+            flex-direction: row;
+            flex-wrap: wrap;
+       
+        }
+    
+        #certificacoes h2 {
+            width: 100%;
+            text-align: center;
+        }
+    
+       
+        #section_certificacoes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+        }
+    
+        /*FORMAÇÂO*/
+    
+        #formacao {
+            
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            /* min-width: 280px;
+            max-width: 800px; */
+            margin: 0 auto;
+    
+        }
+    
+        #formacao h2, #formacao p {
+            width: 100%;
+    
+        }
+    
+        #section_formacao {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+        }
+    
+    }
+    
+    /* @media screen and (max-width: 720px) {
+        #menu{
+            display: block;
+        }
+    } */
+    
+    /* Ids
+         ========================================================================== */
+    
+    /* *
+       *              SOBRE 
+       * ----------------------------------->
+    */
+    
+    #sobre {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px 10px 20px 20px;
+        background-image: linear-gradient(to right, #191970, #011d18 );
+        color: #FFFFFF;
+    }
+    
+    #sobre h2 {
+    
+        color: #FFFFFF;
+    
+    }
+    
+    #sobre h1 {
+        color: #FFFFFF;
+        text-shadow: 3px 3px 1px #111111;
+    
+    }
+    
+    #sobre p {
+    
+        margin-bottom: 2.5em;
+        max-width: 1000px;
+        text-align: left;
+        font-size: 20px;
+    
+    }
+    
+    #sobre .button {
+    
+        background-color: #5A9891;
+        color: #FFFFFF;
+        font-weight: bold;
+    
+    }
+    
+    /* *
+       *              CERTIFICAÇÔES 
+       * ----------------------------------->
+    */
+    
+    
+    #certificacoes {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    
+    }
+    
+    #certificacoes h2 {
+        margin-bottom: 20px;
+        color: #FFFFFF;
+    }
+    
+    #section_certificacoes{
+        display: inline-block;
+        padding: 10px;
+        background-image: linear-gradient(to right, #088288, #9f82fc);
+        /* width: 50%; */
+    }
+    
+    #section_certificacoes ul li {
+        list-style: none;
+        text-align: left;
+        font-weight: bold;
+        
+    }
+    
+    /* *
+       *              FORMAÇÂO 
+       * ----------------------------------->
+    */
+    
+    
+    #formacao {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    #formacao h2 {
+        margin-bottom: 20px;
+        color: #FFFFFF;
+        text-align: center;
+    
+    }
+    
+    #section_formacao {
+        float: right;
+        padding:0 0 38px 0;
+        background-image: linear-gradient(to right, #9f82fc, #088288);
+        /* width: 48.5%; */
+    }
+    
+    #section_formacao ul li {
+        list-style: none;
+        text-align: center;
+        font-weight: bold;
+       
+    }
+    
+    /* IDs Diversos
+         ========================================================================== */
+
+    #btn-mobile{
+        display: none;
+    }
+    
+   #nome_logo{
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 30px;
+        font-family: Yellowtail, serif;
+        padding: 50px;
+   }
+
+   #picture_logo{
+        padding: 50px;
+   }
+    
+    /* Class
+         ========================================================================== */
+    
+    .button {
+    
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 10px 30px;
+        background-image: linear-gradient(to right, #088288, #9f82fc);
+        font-size: .9em;
+        border-radius: 3px;
+    
+    }
+
+ 
