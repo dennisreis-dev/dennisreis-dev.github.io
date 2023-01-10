@@ -42,7 +42,7 @@ h1 {
 }
 
 main{
-    background-image: url(../img/abstract-background.jpg), url(../img/tecnology.jpg), url(../img/abstrato.jpg), url(../img/background-1.jpg), url(../img/background-2.jpg), url(../img/binario.jpg);
+    background-image: url(../img/abstract-techno.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: luminosity;
