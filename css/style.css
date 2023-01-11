@@ -126,7 +126,7 @@ box-shadow: 10px 10px 10px rgba(205, 92, 92,0.6);
  }
  
  .titulo span{
-    /* color: #fff; cor do texto */
+    /* color: #fff; cor do texto, esta formatado no h1 */
     padding: 0 15px; /* distancia do texto às linhas */
     font-weight: bold; /* negrito */
     font-size: 2em; /* tamanho do texto */
