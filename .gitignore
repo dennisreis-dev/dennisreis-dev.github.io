@@ -275,8 +275,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # Pastas e arquivos antigos
-
 imagens_sem_uso/
-style-old.css
+css/style-old.css
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,windows,macos,intellij,visualstudiocode,eclipse
